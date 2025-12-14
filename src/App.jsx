@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import Mocktails from './sections/Mocktails';
 import About from './sections/About';
+import Art from './sections/Art';
 
 gsap.registerPlugin(ScrollTrigger , SplitText); 
 
@@ -15,6 +16,7 @@ const App = () => {
     <Hero/>
     <Mocktails/>
     <About/>
+    <Art/>
   </main>
   )
 }
