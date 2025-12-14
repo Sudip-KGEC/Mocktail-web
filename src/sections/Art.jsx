@@ -45,7 +45,7 @@ useGSAP(() => {
 
 
   return (
-    <div id='art'>
+    <section id='art'>
         <div className='pt-20 h-full mx-auto container'>
             <h2 className='uppercase will-fade'>The Art</h2>
             <div className='content'>
@@ -82,7 +82,7 @@ useGSAP(() => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

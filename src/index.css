@@ -286,7 +286,7 @@ body {
         }
 
         .cocktail-tabs {
-            @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 sm:mb-32 mb-20 relative z-10 md:max-w-6xl md:mx-auto;
+            @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 sm:mb-10 mb-20 relative z-10 md:max-w-6xl md:mx-auto;
 
             button {
                 @apply md:text-3xl text-xl pb-2 cursor-pointer hover:text-yellow hover:border-yellow border-b-1 transition-colors font-modern-negra;
@@ -310,7 +310,7 @@ body {
         }
 
         .cocktail {
-            @apply flex-center mt-10;
+            @apply flex-center;
 
             img {
                 @apply object-contain h-[60vh];
@@ -324,7 +324,7 @@ body {
                 @apply space-y-4 lg:translate-y-20;
 
                 #title {
-                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-40;
+                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-30 md:mx-40;
                 }
             }
 
