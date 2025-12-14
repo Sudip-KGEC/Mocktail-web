@@ -33,8 +33,8 @@ navTimeLine.fromTo('nav' ,
 
   return (
     <nav>
-        <div className=''>
-            <a className='flex items-center gap-2' href="#home">
+        <div >
+            <a className='flex items-center gap-2' href="#hero">
                 <img src="/images/logo.png" alt="logo" />
                 <p className='text-3xl font-bold tracking-wider text-gradient uppercase'>Mocktail Zilla</p>
             </a>
