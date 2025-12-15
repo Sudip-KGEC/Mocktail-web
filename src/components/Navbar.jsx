@@ -1,35 +1,35 @@
 import React from 'react'
 import { navLinks } from '../../constants'
 import { useGSAP } from '@gsap/react'
-import { ScrollTrigger,  } from 'gsap/all'
 import gsap from 'gsap'
 
 const Navbar = () => {
+useGSAP(() => {
 
-useGSAP(()=>{
-
-const navTimeLine = gsap.timeline(
-    {
-        ScrollTrigger :{
-            trigger: 'nav',
-            start: 'bottom top'
-        }
+  const navTimeLine = gsap.timeline({
+    scrollTrigger: {
+      trigger: "nav",         
+      start: "bottom top"      
     }
-) 
+  });
 
-navTimeLine.fromTo('nav' , 
+  navTimeLine.fromTo(
+    "nav",
     {
-        backgroundColor: 'transparent'
-    } , 
+      backgroundColor: "transparent",
+    },
     {
-        backgroundColor:'#000000050',
-        backgroundFilter: 'blur(10px)',
-        duration:1,
-        ease: 'power1.inOut'
+      backgroundColor: "#000000/50",
+      backdropFilter: "blur(8px)",
+      duration: 0.4,
+      ease: "power1.out"
     }
-)
+  );
 
-} , [])
+
+
+}, []);
+
 
   return (
     <nav>

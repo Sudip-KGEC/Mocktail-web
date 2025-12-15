@@ -59,6 +59,12 @@ body {
     mask-size: 50%;
 }
 
+nav {
+    background: rgba(0,0,0,0);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
 @layer components {
     main {
         @apply w-full overflow-x-hidden;
